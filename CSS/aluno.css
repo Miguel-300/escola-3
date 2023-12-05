@@ -1,0 +1,134 @@
+/* Adicione os estilos conforme necessário */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo img {
+    max-width: 100px;
+}
+
+.header-content {
+    margin-top: 20px;
+}
+
+nav {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #3498db;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.info-card {
+    flex: 0 0 30%;
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.info-card:hover {
+    transform: scale(1.05);
+}
+
+.info-card img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.course {
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.grades {
+    display: flex;
+    justify-content: space-around;
+}
+
+.grade-category {
+    width: 48%;
+    box-sizing: border-box;
+}
+
+.grade-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.grade-category ul li {
+    margin-bottom: 10px;
+}
+
+/* Adicione estilos específicos conforme necessário */

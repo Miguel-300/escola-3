@@ -1,0 +1,9 @@
+.lado2{
+    flex-direction: column;
+}
+.lado{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 1660px;
+}
